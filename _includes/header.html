@@ -11,11 +11,9 @@
             {% for my_page in site.pages %}
             {% if my_page.title %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-            {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li><a href="Personal Interests.html">Interests</a></li>
             {% endif %}
             {% endfor %}
+            <li><a href="#">Interests</a></li>
           </ul>
         </div>
       </li>
